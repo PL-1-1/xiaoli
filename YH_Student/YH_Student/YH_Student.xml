@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>YH_Student</name>
+    </assembly>
+    <members>
+        <member name="M:YH_Student.Controllers.loginController.Get(System.Int32)">
+            <summary>
+            查询
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:YH_Student.Controllers.loginController.Add(YH.Core.Model.Models.student)">
+            <summary>
+            添加
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:YH_Student.Controllers.loginController.Dels(System.Int32)">
+            <summary>
+            删除
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:YH_Student.Controllers.loginController.Update(YH.Core.Model.Models.student)">
+            <summary>
+            修改
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

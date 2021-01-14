@@ -1,0 +1,14 @@
+E:\项目\YH_Student\Repository\bin\Debug\netcoreapp3.1\Repository.deps.json
+E:\项目\YH_Student\Repository\bin\Debug\netcoreapp3.1\Repository.dll
+E:\项目\YH_Student\Repository\bin\Debug\netcoreapp3.1\Repository.pdb
+E:\项目\YH_Student\Repository\bin\Debug\netcoreapp3.1\IRepositroy.dll
+E:\项目\YH_Student\Repository\bin\Debug\netcoreapp3.1\Model.dll
+E:\项目\YH_Student\Repository\bin\Debug\netcoreapp3.1\IRepositroy.pdb
+E:\项目\YH_Student\Repository\bin\Debug\netcoreapp3.1\Model.pdb
+E:\项目\YH_Student\Repository\obj\Debug\netcoreapp3.1\Repository.csprojAssemblyReference.cache
+E:\项目\YH_Student\Repository\obj\Debug\netcoreapp3.1\Repository.AssemblyInfoInputs.cache
+E:\项目\YH_Student\Repository\obj\Debug\netcoreapp3.1\Repository.AssemblyInfo.cs
+E:\项目\YH_Student\Repository\obj\Debug\netcoreapp3.1\Repository.csproj.CoreCompileInputs.cache
+E:\项目\YH_Student\Repository\obj\Debug\netcoreapp3.1\Repository.csproj.CopyComplete
+E:\项目\YH_Student\Repository\obj\Debug\netcoreapp3.1\Repository.dll
+E:\项目\YH_Student\Repository\obj\Debug\netcoreapp3.1\Repository.pdb

@@ -1,0 +1,11 @@
+E:\项目\YH_Student\IRepositroy\bin\Release\netcoreapp3.1\IRepositroy.deps.json
+E:\项目\YH_Student\IRepositroy\bin\Release\netcoreapp3.1\IRepositroy.dll
+E:\项目\YH_Student\IRepositroy\bin\Release\netcoreapp3.1\IRepositroy.pdb
+E:\项目\YH_Student\IRepositroy\bin\Release\netcoreapp3.1\Model.dll
+E:\项目\YH_Student\IRepositroy\bin\Release\netcoreapp3.1\Model.pdb
+E:\项目\YH_Student\IRepositroy\obj\Release\netcoreapp3.1\IRepositroy.AssemblyInfoInputs.cache
+E:\项目\YH_Student\IRepositroy\obj\Release\netcoreapp3.1\IRepositroy.AssemblyInfo.cs
+E:\项目\YH_Student\IRepositroy\obj\Release\netcoreapp3.1\IRepositroy.csproj.CoreCompileInputs.cache
+E:\项目\YH_Student\IRepositroy\obj\Release\netcoreapp3.1\IRepositroy.csproj.CopyComplete
+E:\项目\YH_Student\IRepositroy\obj\Release\netcoreapp3.1\IRepositroy.dll
+E:\项目\YH_Student\IRepositroy\obj\Release\netcoreapp3.1\IRepositroy.pdb
