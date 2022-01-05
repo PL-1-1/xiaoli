@@ -1,4 +1,7 @@
-﻿using IServices;
+﻿using Autho.JWT;
+using Blog.Core.FrameWork.Entity;
+using IServices;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -9,7 +12,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using YH.Core.Model;
 using YH.Core.Model.Models;
-
 namespace YH_Student.Controllers
 {
     [Route("api/[controller]")]
@@ -17,27 +19,72 @@ namespace YH_Student.Controllers
     public class loginController : ControllerBase
     {
         readonly IStudentServices _studentServices;
-    
-        public loginController(IStudentServices studentServices)
+        readonly IWaybillServices _WaybillServices;
+        public loginController(IStudentServices studentServices, IWaybillServices WaybillServices)
         {
             _studentServices = studentServices;
-          
+            _WaybillServices = WaybillServices;
+
+
         }
         /// <summary>
         /// 查询
         /// </summary>
-        /// <param name="id"></param>
+        /// <param name="billno"></param>
         /// <returns></returns>
-        [HttpGet("{id}", Name = "Get")]
-        public async Task<MessageModel<student>> Get(int id)
+        [HttpGet("{billno}", Name = "Get")]
+        [Authorize(Policy = "Admin")]
+        [Authorize(Roles = "Admin")]
+        public async Task<MessageModel<WayBill>> Get(string billno)
         {
-            var data = await _studentServices.QueryByID(id);
-            return new MessageModel<student>()
+            var data = await _WaybillServices.Query(u => u.BillNo == billno);
+            return new MessageModel<WayBill>()
             {
-                msg = "获取成功",          
-                response = data
+                msg = "获取成功",
+                response = data[0]
             };
         }
+        // / <summary>
+        /// 登录接口：随便输入字符，获取token，然后添加 Authoritarian
+        // / </summary>
+        // / <param name = "name" ></ param >
+        // / < param name="pass"></param>
+        /// <returns></returns>
+        [HttpGet("GetToken")]
+        
+        // [Authorize(Policy = "Admin")]
+        public async Task<object> GetJWTToken(string name, string pass)
+        {
+            string jwtStr = string.Empty;
+            bool suc = false;
+            //这里就是用户登陆以后，通过数据库去调取数据，分配权限的操作
+            //这里直接写死了
+
+
+            if (string.IsNullOrEmpty(name) || string.IsNullOrEmpty(pass))
+            {
+                return new JsonResult(new
+                {
+                    Status = false,
+                    message = "用户名或密码不能为空"
+                });
+            }
+
+            TokenModelJWT tokenModel = new TokenModelJWT();
+            tokenModel.Uid = 1;
+            tokenModel.Role = "Admin";
+
+            jwtStr = JwtHelper.IssueJWT(tokenModel);
+            suc = true;
+
+
+            return Ok(new
+            {
+                success = suc,
+                token = jwtStr
+            });
+        }
+        // POST api/values
         /// <summary>
         /// 添加
         /// </summary>

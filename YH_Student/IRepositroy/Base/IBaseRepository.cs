@@ -24,7 +24,6 @@ namespace IRepotitory.BASE
         Task<bool> Update(TEntity model);
         Task<bool> Update(TEntity entity, string strWhere);
         Task<bool> Update(TEntity entity, List<string> lstColumns = null, List<string> lstIgnoreColumns = null, string strWhere = "");
-
         Task<List<TEntity>> Query();
         Task<List<TEntity>> Query(string strWhere);
         Task<List<TEntity>> Query(Expression<Func<TEntity, bool>> whereExpression);

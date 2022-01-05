@@ -4,11 +4,14 @@
         <name>YH_Student</name>
     </assembly>
     <members>
-        <member name="M:YH_Student.Controllers.loginController.Get(System.Int32)">
+        <member name="M:YH_Student.Controllers.loginController.Get(System.String)">
             <summary>
             查询
             </summary>
-            <param name="id"></param>
+            <param name="billno"></param>
+            <returns></returns>
+        </member>
+        <member name="M:YH_Student.Controllers.loginController.GetJWTToken(System.String,System.String)">
             <returns></returns>
         </member>
         <member name="M:YH_Student.Controllers.loginController.Add(YH.Core.Model.Models.student)">
@@ -29,6 +32,19 @@
             修改
             </summary>
             <returns></returns>
+        </member>
+        <member name="M:YH_Student.Controllers.WeatherForecastController.GetJWTToken(System.String,System.String)">
+            <returns></returns>
+        </member>
+        <member name="F:YH_Student.Startup.ApiVersions.v1">
+            <summary>
+            v1 版本
+            </summary>
+        </member>
+        <member name="F:YH_Student.Startup.ApiVersions.v2">
+            <summary>
+            v2 版本
+            </summary>
         </member>
     </members>
 </doc>

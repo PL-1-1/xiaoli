@@ -1,0 +1,6 @@
+F:\测试\YH_Student\YH.FrameWork\obj\Debug\YH.FrameWork.csproj.CoreCompileInputs.cache
+F:\测试\YH_Student\YH.FrameWork\bin\Debug\YH.FrameWork.dll
+F:\测试\YH_Student\YH.FrameWork\bin\Debug\YH.FrameWork.pdb
+F:\测试\YH_Student\YH.FrameWork\obj\Debug\YH.FrameWork.dll
+F:\测试\YH_Student\YH.FrameWork\obj\Debug\YH.FrameWork.pdb
+F:\测试\YH_Student\YH.FrameWork\obj\Debug\YH.FrameWork.csproj.AssemblyReference.cache

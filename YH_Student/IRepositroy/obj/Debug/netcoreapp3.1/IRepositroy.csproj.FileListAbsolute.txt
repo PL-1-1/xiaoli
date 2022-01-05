@@ -10,3 +10,16 @@ E:\项目\YH_Student\IRepositroy\bin\Debug\netcoreapp3.1\Model.pdb
 E:\项目\YH_Student\IRepositroy\obj\Debug\netcoreapp3.1\IRepositroy.csproj.CopyComplete
 E:\项目\YH_Student\IRepositroy\obj\Debug\netcoreapp3.1\IRepositroy.dll
 E:\项目\YH_Student\IRepositroy\obj\Debug\netcoreapp3.1\IRepositroy.pdb
+F:\测试\YH_Student\IRepositroy\bin\Debug\netcoreapp3.1\IRepositroy.deps.json
+F:\测试\YH_Student\IRepositroy\bin\Debug\netcoreapp3.1\IRepositroy.dll
+F:\测试\YH_Student\IRepositroy\bin\Debug\netcoreapp3.1\IRepositroy.pdb
+F:\测试\YH_Student\IRepositroy\bin\Debug\netcoreapp3.1\Model.dll
+F:\测试\YH_Student\IRepositroy\bin\Debug\netcoreapp3.1\Model.pdb
+F:\测试\YH_Student\IRepositroy\obj\Debug\netcoreapp3.1\IRepositroy.csproj.AssemblyReference.cache
+F:\测试\YH_Student\IRepositroy\obj\Debug\netcoreapp3.1\IRepositroy.GeneratedMSBuildEditorConfig.editorconfig
+F:\测试\YH_Student\IRepositroy\obj\Debug\netcoreapp3.1\IRepositroy.AssemblyInfoInputs.cache
+F:\测试\YH_Student\IRepositroy\obj\Debug\netcoreapp3.1\IRepositroy.AssemblyInfo.cs
+F:\测试\YH_Student\IRepositroy\obj\Debug\netcoreapp3.1\IRepositroy.csproj.CoreCompileInputs.cache
+F:\测试\YH_Student\IRepositroy\obj\Debug\netcoreapp3.1\IRepositroy.csproj.CopyComplete
+F:\测试\YH_Student\IRepositroy\obj\Debug\netcoreapp3.1\IRepositroy.dll
+F:\测试\YH_Student\IRepositroy\obj\Debug\netcoreapp3.1\IRepositroy.pdb

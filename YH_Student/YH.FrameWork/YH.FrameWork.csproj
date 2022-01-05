@@ -1,0 +1,2158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7DB02323-C5E3-4465-8E57-1ACA0089FEB3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>YH.FrameWork</RootNamespace>
+    <AssemblyName>YH.FrameWork</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="work\AbnormalRegistration.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\AbnormalRegistration.cs" />
+    <Compile Include="work\accdetail_tem.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\accdetail_tem.cs" />
+    <Compile Include="work\account.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\account.cs" />
+    <Compile Include="work\account_detail.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\account_detail.cs" />
+    <Compile Include="work\AllocateSynLog.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\AllocateSynLog.cs" />
+    <Compile Include="work\AppMenu.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\AppMenu.cs" />
+    <Compile Include="work\ArrearsControl.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\ArrearsControl.cs" />
+    <Compile Include="work\bad.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\bad.cs" />
+    <Compile Include="work\badInfo.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\badInfo.cs" />
+    <Compile Include="work\bankcard.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\bankcard.cs" />
+    <Compile Include="work\basAccDetail.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basAccDetail.cs" />
+    <Compile Include="work\basAccDetailTmp.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basAccDetailTmp.cs" />
+    <Compile Include="work\basAccDetail_1.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basAccDetail_1.cs" />
+    <Compile Include="work\basAccDetail_BackUp20190617.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basAccDetail_BackUp20190617.cs" />
+    <Compile Include="work\basAccount.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basAccount.cs" />
+    <Compile Include="work\basAccTatol.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basAccTatol.cs" />
+    <Compile Include="work\basArea.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basArea.cs" />
+    <Compile Include="work\basBankAudit.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basBankAudit.cs" />
+    <Compile Include="work\basCar.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basCar.cs" />
+    <Compile Include="work\BasCarrierUnit.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\BasCarrierUnit.cs" />
+    <Compile Include="work\basCause.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basCause.cs" />
+    <Compile Include="work\basCompany.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basCompany.cs" />
+    <Compile Include="work\basCust.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basCust.cs" />
+    <Compile Include="work\basCustContract.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basCustContract.cs" />
+    <Compile Include="work\basCustContractTemp.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basCustContractTemp.cs" />
+    <Compile Include="work\basCustlimt.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basCustlimt.cs" />
+    <Compile Include="work\BasCustomerSms.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\BasCustomerSms.cs" />
+    <Compile Include="work\bascutContactList.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\bascutContactList.cs" />
+    <Compile Include="work\basDeliveryFee.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basDeliveryFee.cs" />
+    <Compile Include="work\basDeliveryFeeHK.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basDeliveryFeeHK.cs" />
+    <Compile Include="work\basDeliveryFee_New.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basDeliveryFee_New.cs" />
+    <Compile Include="work\basDenominatedFee.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basDenominatedFee.cs" />
+    <Compile Include="work\basDepart.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basDepart.cs" />
+    <Compile Include="work\basDepartureAllotFee.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basDepartureAllotFee.cs" />
+    <Compile Include="work\basDepartureAllotFeeNew.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basDepartureAllotFeeNew.cs" />
+    <Compile Include="work\basDepartureFee.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basDepartureFee.cs" />
+    <Compile Include="work\basDepartureOptFee.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basDepartureOptFee.cs" />
+    <Compile Include="work\basDepartureOptFee_New.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basDepartureOptFee_New.cs" />
+    <Compile Include="work\basDirectSendFee.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basDirectSendFee.cs" />
+    <Compile Include="work\basEmployee.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basEmployee.cs" />
+    <Compile Include="work\baseProcedure.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\baseProcedure.cs" />
+    <Compile Include="work\baseRegion.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\baseRegion.cs" />
+    <Compile Include="work\baseRegion_KD.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\baseRegion_KD.cs" />
+    <Compile Include="work\basFeeType.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basFeeType.cs" />
+    <Compile Include="work\basFinancialAudit.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basFinancialAudit.cs" />
+    <Compile Include="work\basFreightFee.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basFreightFee.cs" />
+    <Compile Include="work\basFreightFee_1.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basFreightFee_1.cs" />
+    <Compile Include="work\basGridViewCol.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basGridViewCol.cs" />
+    <Compile Include="work\basHiddenField.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basHiddenField.cs" />
+    <Compile Include="work\basImportCredential.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basImportCredential.cs" />
+    <Compile Include="work\basInsertLog.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basInsertLog.cs" />
+    <Compile Include="work\basInsertLog_print.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basInsertLog_print.cs" />
+    <Compile Include="work\basJobs.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basJobs.cs" />
+    <Compile Include="work\basLineName.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basLineName.cs" />
+    <Compile Include="work\basLongDate.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basLongDate.cs" />
+    <Compile Include="work\basMainlineFee.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basMainlineFee.cs" />
+    <Compile Include="work\basMainlineFee_New.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basMainlineFee_New.cs" />
+    <Compile Include="work\basMenu.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basMenu.cs" />
+    <Compile Include="work\basMenuKT.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basMenuKT.cs" />
+    <Compile Include="work\basMenuZQ.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basMenuZQ.cs" />
+    <Compile Include="work\basmenu_for_insert.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basmenu_for_insert.cs" />
+    <Compile Include="work\basMiddle.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basMiddle.cs" />
+    <Compile Include="work\basMiddle2018.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basMiddle2018.cs" />
+    <Compile Include="work\basMiddleMonth.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basMiddleMonth.cs" />
+    <Compile Include="work\basMiddleSiteShort.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basMiddleSiteShort.cs" />
+    <Compile Include="work\basMiddleSite_309.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basMiddleSite_309.cs" />
+    <Compile Include="work\basMiddleSite_650.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basMiddleSite_650.cs" />
+    <Compile Include="work\basMiddleSite_651.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basMiddleSite_651.cs" />
+    <Compile Include="work\basMiddleSite_652.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basMiddleSite_652.cs" />
+    <Compile Include="work\basMiddleSite_653.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basMiddleSite_653.cs" />
+    <Compile Include="work\basMiddleSite_654.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basMiddleSite_654.cs" />
+    <Compile Include="work\basMiddleSite_666.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basMiddleSite_666.cs" />
+    <Compile Include="work\basMiddleSite_668.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basMiddleSite_668.cs" />
+    <Compile Include="work\basMiddleSite_681.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basMiddleSite_681.cs" />
+    <Compile Include="work\basMiddleSite_682.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basMiddleSite_682.cs" />
+    <Compile Include="work\basMiddleSite_683.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basMiddleSite_683.cs" />
+    <Compile Include="work\basMiddleSite_720.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basMiddleSite_720.cs" />
+    <Compile Include="work\basMiddleSite_721.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basMiddleSite_721.cs" />
+    <Compile Include="work\basMiddleSite_722.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basMiddleSite_722.cs" />
+    <Compile Include="work\basMiddleSite_723.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basMiddleSite_723.cs" />
+    <Compile Include="work\basMiddleSite_724.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basMiddleSite_724.cs" />
+    <Compile Include="work\basMiddleSite_725.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basMiddleSite_725.cs" />
+    <Compile Include="work\basMiddleSite_CQZX.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basMiddleSite_CQZX.cs" />
+    <Compile Include="work\basMiddleSite_cstdwlyxgs.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basMiddleSite_cstdwlyxgs.cs" />
+    <Compile Include="work\basMiddleSite_DYWL.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basMiddleSite_DYWL.cs" />
+    <Compile Include="work\basMiddleSite_FCD.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basMiddleSite_FCD.cs" />
+    <Compile Include="work\basMiddleSite_HD.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basMiddleSite_HD.cs" />
+    <Compile Include="work\basMiddleSite_JMZX.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basMiddleSite_JMZX.cs" />
+    <Compile Include="work\basMiddleSite_MSWL.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basMiddleSite_MSWL.cs" />
+    <Compile Include="work\basMiddleSite_SZHDWLYXGS.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basMiddleSite_SZHDWLYXGS.cs" />
+    <Compile Include="work\basMiddleSite_SZXNFQ.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basMiddleSite_SZXNFQ.cs" />
+    <Compile Include="work\basMiddleSite_ZZDK.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basMiddleSite_ZZDK.cs" />
+    <Compile Include="work\basModifyAcc.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basModifyAcc.cs" />
+    <Compile Include="work\basMoneyAccount.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basMoneyAccount.cs" />
+    <Compile Include="work\basOtherName.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basOtherName.cs" />
+    <Compile Include="work\basPlatAccount.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basPlatAccount.cs" />
+    <Compile Include="work\basReceiveCust.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basReceiveCust.cs" />
+    <Compile Include="work\basRightGroupTree.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basRightGroupTree.cs" />
+    <Compile Include="work\basRightGroupTreeKT.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basRightGroupTreeKT.cs" />
+    <Compile Include="work\basRightGroupTreeZQ.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basRightGroupTreeZQ.cs" />
+    <Compile Include="work\basSenderFreightPrice.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basSenderFreightPrice.cs" />
+    <Compile Include="work\basSettleCenterAcc.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basSettleCenterAcc.cs" />
+    <Compile Include="work\basShortDate.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basShortDate.cs" />
+    <Compile Include="work\basSite.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basSite.cs" />
+    <Compile Include="work\basSmsFormat.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basSmsFormat.cs" />
+    <Compile Include="work\basSmsGroup.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basSmsGroup.cs" />
+    <Compile Include="work\basSmsTel.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basSmsTel.cs" />
+    <Compile Include="work\basSubject.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basSubject.cs" />
+    <Compile Include="work\basSubjectCorr.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basSubjectCorr.cs" />
+    <Compile Include="work\basSubjectCorr_1.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basSubjectCorr_1.cs" />
+    <Compile Include="work\basSurchargeFee.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basSurchargeFee.cs" />
+    <Compile Include="work\basSurchargeFeeNew.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basSurchargeFeeNew.cs" />
+    <Compile Include="work\basTerminalAllotFee.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basTerminalAllotFee.cs" />
+    <Compile Include="work\basTerminalOptFee.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basTerminalOptFee.cs" />
+    <Compile Include="work\basTerminalOptFee_New.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basTerminalOptFee_New.cs" />
+    <Compile Include="work\basTerminalOutFee.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basTerminalOutFee.cs" />
+    <Compile Include="work\basTitle.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basTitle.cs" />
+    <Compile Include="work\basTransferCode.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basTransferCode.cs" />
+    <Compile Include="work\basTransferFee.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basTransferFee.cs" />
+    <Compile Include="work\basTransferFee_New.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basTransferFee_New.cs" />
+    <Compile Include="work\basWeb.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basWeb.cs" />
+    <Compile Include="work\basWebEq.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basWebEq.cs" />
+    <Compile Include="work\basWebName_Refund.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\basWebName_Refund.cs" />
+    <Compile Include="work\bcqx.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\bcqx.cs" />
+    <Compile Include="work\billAccAgeDetailMonth.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billAccAgeDetailMonth.cs" />
+    <Compile Include="work\billAccAgeDetailShort.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billAccAgeDetailShort.cs" />
+    <Compile Include="work\BillAccount.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\BillAccount.cs" />
+    <Compile Include="work\BillAccount_BackUp20190610.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\BillAccount_BackUp20190610.cs" />
+    <Compile Include="work\billAduit.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billAduit.cs" />
+    <Compile Include="work\billApply.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billApply.cs" />
+    <Compile Include="work\BillArrConfirm.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\BillArrConfirm.cs" />
+    <Compile Include="work\billArrMessageRecord.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billArrMessageRecord.cs" />
+    <Compile Include="work\BillChargeApply.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\BillChargeApply.cs" />
+    <Compile Include="work\billCustQuerrylog.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billCustQuerrylog.cs" />
+    <Compile Include="work\billdamage.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billdamage.cs" />
+    <Compile Include="work\billDeliConWayBill.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billDeliConWayBill.cs" />
+    <Compile Include="work\billDelivery.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billDelivery.cs" />
+    <Compile Include="work\billDeparture.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billDeparture.cs" />
+    <Compile Include="work\billDeparture2018.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billDeparture2018.cs" />
+    <Compile Include="work\billDepartureFB.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billDepartureFB.cs" />
+    <Compile Include="work\billDepartureFBList.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billDepartureFBList.cs" />
+    <Compile Include="work\billDepartureFBListTmp.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billDepartureFBListTmp.cs" />
+    <Compile Include="work\billDepartureFBListTmpToKMS.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billDepartureFBListTmpToKMS.cs" />
+    <Compile Include="work\billDepartureFBListTwo.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billDepartureFBListTwo.cs" />
+    <Compile Include="work\billDepartureFBTmp.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billDepartureFBTmp.cs" />
+    <Compile Include="work\billDepartureFBTmpToKMS.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billDepartureFBTmpToKMS.cs" />
+    <Compile Include="work\billDepartureFBTwo.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billDepartureFBTwo.cs" />
+    <Compile Include="work\billDepartureFollow.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billDepartureFollow.cs" />
+    <Compile Include="work\billDepartureList.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billDepartureList.cs" />
+    <Compile Include="work\billDepartureList2018.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billDepartureList2018.cs" />
+    <Compile Include="work\billDepartureListPre.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billDepartureListPre.cs" />
+    <Compile Include="work\billDepartureList_Delete.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billDepartureList_Delete.cs" />
+    <Compile Include="work\billDepartureList_kms.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billDepartureList_kms.cs" />
+    <Compile Include="work\billDepartureList_pda.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billDepartureList_pda.cs" />
+    <Compile Include="work\billDepartureMonth.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billDepartureMonth.cs" />
+    <Compile Include="work\billDeparturePre.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billDeparturePre.cs" />
+    <Compile Include="work\billDeparturePreToSite.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billDeparturePreToSite.cs" />
+    <Compile Include="work\billDepartureToSite.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billDepartureToSite.cs" />
+    <Compile Include="work\billDeparture_Delete.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billDeparture_Delete.cs" />
+    <Compile Include="work\billDeparture_pda.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billDeparture_pda.cs" />
+    <Compile Include="work\billErrorSign.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billErrorSign.cs" />
+    <Compile Include="work\billException.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billException.cs" />
+    <Compile Include="work\billFreightChanges.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billFreightChanges.cs" />
+    <Compile Include="work\billHandFeeByCar.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billHandFeeByCar.cs" />
+    <Compile Include="work\billHandFeeByCarMonth.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billHandFeeByCarMonth.cs" />
+    <Compile Include="work\billInsurance.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billInsurance.cs" />
+    <Compile Include="work\billInsuranceResponse.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billInsuranceResponse.cs" />
+    <Compile Include="work\billInventdetail.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billInventdetail.cs" />
+    <Compile Include="work\billInventory.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billInventory.cs" />
+    <Compile Include="work\billMiddleTrace.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billMiddleTrace.cs" />
+    <Compile Include="work\billNo.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billNo.cs" />
+    <Compile Include="work\BillNoTemp.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\BillNoTemp.cs" />
+    <Compile Include="work\BillOtherFee.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\BillOtherFee.cs" />
+    <Compile Include="work\BillOtherFeeMonth.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\BillOtherFeeMonth.cs" />
+    <Compile Include="work\billOutRefund.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billOutRefund.cs" />
+    <Compile Include="work\BillPettypay.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\BillPettypay.cs" />
+    <Compile Include="work\BillRepertory.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\BillRepertory.cs" />
+    <Compile Include="work\billSendGoods.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billSendGoods.cs" />
+    <Compile Include="work\billSendGoods2018.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billSendGoods2018.cs" />
+    <Compile Include="work\billSendGoodsMonth.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billSendGoodsMonth.cs" />
+    <Compile Include="work\billSendGoodsPre.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billSendGoodsPre.cs" />
+    <Compile Include="work\billSendGoodsPre_Delete.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billSendGoodsPre_Delete.cs" />
+    <Compile Include="work\billSendGoods_Delete.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billSendGoods_Delete.cs" />
+    <Compile Include="work\BillSendGoods_KMS.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\BillSendGoods_KMS.cs" />
+    <Compile Include="work\billSendGoods_pda.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billSendGoods_pda.cs" />
+    <Compile Include="work\billSentCity.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billSentCity.cs" />
+    <Compile Include="work\billSeqs.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billSeqs.cs" />
+    <Compile Include="work\billShortConnDelList.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billShortConnDelList.cs" />
+    <Compile Include="work\billSign.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billSign.cs" />
+    <Compile Include="work\billSignTemporary.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billSignTemporary.cs" />
+    <Compile Include="work\BillTraceInfo.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\BillTraceInfo.cs" />
+    <Compile Include="work\BillTraceInfoTmpToKMS.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\BillTraceInfoTmpToKMS.cs" />
+    <Compile Include="work\BillTraceInfo_Temp.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\BillTraceInfo_Temp.cs" />
+    <Compile Include="work\BillTraceInfo_TempSum.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\BillTraceInfo_TempSum.cs" />
+    <Compile Include="work\BillTrace_KMS.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\BillTrace_KMS.cs" />
+    <Compile Include="work\billUnusualRegister.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\billUnusualRegister.cs" />
+    <Compile Include="work\BillVehicleStar.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\BillVehicleStar.cs" />
+    <Compile Include="work\BillWithdrawCashApply.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\BillWithdrawCashApply.cs" />
+    <Compile Include="work\BI_GroupSummary_Company.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\BI_GroupSummary_Company.cs" />
+    <Compile Include="work\BI_GroupSummary_Line.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\BI_GroupSummary_Line.cs" />
+    <Compile Include="work\BI_GroupSummary_LineDept.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\BI_GroupSummary_LineDept.cs" />
+    <Compile Include="work\BI_GroupSummary_typecount.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\BI_GroupSummary_typecount.cs" />
+    <Compile Include="work\BI_GroupSummary_typecount_lms.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\BI_GroupSummary_typecount_lms.cs" />
+    <Compile Include="work\BI_GroupSummary_wcount.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\BI_GroupSummary_wcount.cs" />
+    <Compile Include="work\BI_GroupSummary_wcount_lms.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\BI_GroupSummary_wcount_lms.cs" />
+    <Compile Include="work\bllBespeakSendGoods.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\bllBespeakSendGoods.cs" />
+    <Compile Include="work\BuKou.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\BuKou.cs" />
+    <Compile Include="work\b_app_update.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\b_app_update.cs" />
+    <Compile Include="work\b_arg.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\b_arg.cs" />
+    <Compile Include="work\b_bad_tyd.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\b_bad_tyd.cs" />
+    <Compile Include="work\b_bank.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\b_bank.cs" />
+    <Compile Include="work\b_bankinfo.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\b_bankinfo.cs" />
+    <Compile Include="work\b_bank_bill.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\b_bank_bill.cs" />
+    <Compile Include="work\b_barcode.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\b_barcode.cs" />
+    <Compile Include="work\b_barcode_connect.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\b_barcode_connect.cs" />
+    <Compile Include="work\b_barcode_connect_pda.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\b_barcode_connect_pda.cs" />
+    <Compile Include="work\b_barcode_package_down.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\b_barcode_package_down.cs" />
+    <Compile Include="work\b_barcode_package_up.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\b_barcode_package_up.cs" />
+    <Compile Include="work\b_barcode_package_up_pda.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\b_barcode_package_up_pda.cs" />
+    <Compile Include="work\b_barcode_pda.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\b_barcode_pda.cs" />
+    <Compile Include="work\b_barcode_send.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\b_barcode_send.cs" />
+    <Compile Include="work\b_barcode_send_pda.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\b_barcode_send_pda.cs" />
+    <Compile Include="work\b_bm.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\b_bm.cs" />
+    <Compile Include="work\B_chauffer.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\B_chauffer.cs" />
+    <Compile Include="work\B_ChaufferImage.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\B_ChaufferImage.cs" />
+    <Compile Include="work\b_column.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\b_column.cs" />
+    <Compile Include="work\b_fcd.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\b_fcd.cs" />
+    <Compile Include="work\B_HONGHAO.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\B_HONGHAO.cs" />
+    <Compile Include="work\b_kh_xm.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\b_kh_xm.cs" />
+    <Compile Include="work\b_oa_file.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\b_oa_file.cs" />
+    <Compile Include="work\b_oa_file_reciver.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\b_oa_file_reciver.cs" />
+    <Compile Include="work\b_oa_file_type.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\b_oa_file_type.cs" />
+    <Compile Include="work\b_other_company.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\b_other_company.cs" />
+    <Compile Include="work\b_scan_send.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\b_scan_send.cs" />
+    <Compile Include="work\B_SMS_AUTO.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\B_SMS_AUTO.cs" />
+    <Compile Include="work\B_SMS_RECORD.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\B_SMS_RECORD.cs" />
+    <Compile Include="work\b_tyd.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\b_tyd.cs" />
+    <Compile Include="work\b_tyd_trace_tpl.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\b_tyd_trace_tpl.cs" />
+    <Compile Include="work\b_tyd_ztd.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\b_tyd_ztd.cs" />
+    <Compile Include="work\b_updater_barcode.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\b_updater_barcode.cs" />
+    <Compile Include="work\b_users.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\b_users.cs" />
+    <Compile Include="work\B_VEHICLE_HT.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\B_VEHICLE_HT.cs" />
+    <Compile Include="work\B_WEB.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\B_WEB.cs" />
+    <Compile Include="work\b_web_check.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\b_web_check.cs" />
+    <Compile Include="work\B_WEB_ORDER.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\B_WEB_ORDER.cs" />
+    <Compile Include="work\B_YGDA.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\B_YGDA.cs" />
+    <Compile Include="work\b_ygkq.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\b_ygkq.cs" />
+    <Compile Include="work\b_yg_gs.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\b_yg_gs.cs" />
+    <Compile Include="work\b_yg_jc.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\b_yg_jc.cs" />
+    <Compile Include="work\b_yg_kp.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\b_yg_kp.cs" />
+    <Compile Include="work\b_yg_pic.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\b_yg_pic.cs" />
+    <Compile Include="work\b_yg_px.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\b_yg_px.cs" />
+    <Compile Include="work\b_yg_qj.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\b_yg_qj.cs" />
+    <Compile Include="work\b_yg_trun.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\b_yg_trun.cs" />
+    <Compile Include="work\b_yg_work.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\b_yg_work.cs" />
+    <Compile Include="work\b_zw.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\b_zw.cs" />
+    <Compile Include="work\b_zw_kh_xm.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\b_zw_kh_xm.cs" />
+    <Compile Include="work\b_zw_kh_zw.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\b_zw_kh_zw.cs" />
+    <Compile Include="work\Cargostatistics.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\Cargostatistics.cs" />
+    <Compile Include="work\cause_b_bank.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\cause_b_bank.cs" />
+    <Compile Include="work\cause_b_bankinfo.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\cause_b_bankinfo.cs" />
+    <Compile Include="work\Ceshia.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\Ceshia.cs" />
+    <Compile Include="work\chaufferpoint.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\chaufferpoint.cs" />
+    <Compile Include="work\CollectionCommission.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\CollectionCommission.cs" />
+    <Compile Include="work\CreditAccount.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\CreditAccount.cs" />
+    <Compile Include="work\CustomerInformation.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\CustomerInformation.cs" />
+    <Compile Include="work\DataStatisticsRignt.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\DataStatisticsRignt.cs" />
+    <Compile Include="work\dept.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\dept.cs" />
+    <Compile Include="work\DirectDriverFee.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\DirectDriverFee.cs" />
+    <Compile Include="work\DKDCSumLineData.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\DKDCSumLineData.cs" />
+    <Compile Include="work\DKDeliverySumLineData.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\DKDeliverySumLineData.cs" />
+    <Compile Include="work\DKMiddleSumLineData.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\DKMiddleSumLineData.cs" />
+    <Compile Include="work\DKSendSumLineData.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\DKSendSumLineData.cs" />
+    <Compile Include="work\DKSumLineData.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\DKSumLineData.cs" />
+    <Compile Include="work\DKSumLineDataTotale.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\DKSumLineDataTotale.cs" />
+    <Compile Include="work\DKSumLineDataTotaleNew.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\DKSumLineDataTotaleNew.cs" />
+    <Compile Include="work\DKZCSumLineData.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\DKZCSumLineData.cs" />
+    <Compile Include="work\DKZYDCSumLineData.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\DKZYDCSumLineData.cs" />
+    <Compile Include="work\DriverImagesInfo.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\DriverImagesInfo.cs" />
+    <Compile Include="work\dwgbjg.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\dwgbjg.cs" />
+    <Compile Include="work\ErrInfo.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\ErrInfo.cs" />
+    <Compile Include="work\ExpenseAudit.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\ExpenseAudit.cs" />
+    <Compile Include="work\ExpenseBudget.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\ExpenseBudget.cs" />
+    <Compile Include="work\Expensereimbursement.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\Expensereimbursement.cs" />
+    <Compile Include="work\ExportDataApply.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\ExportDataApply.cs" />
+    <Compile Include="work\FB_Setting.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\FB_Setting.cs" />
+    <Compile Include="work\FileUpdate.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\FileUpdate.cs" />
+    <Compile Include="work\FileUpdateGX.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\FileUpdateGX.cs" />
+    <Compile Include="work\FileUpdateJiaAn.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\FileUpdateJiaAn.cs" />
+    <Compile Include="work\FileUpdateKT.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\FileUpdateKT.cs" />
+    <Compile Include="work\FileUpdateZQ.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\FileUpdateZQ.cs" />
+    <Compile Include="work\FindGoods.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\FindGoods.cs" />
+    <Compile Include="work\FindGoodsImage.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\FindGoodsImage.cs" />
+    <Compile Include="work\frozeninfo.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\frozeninfo.cs" />
+    <Compile Include="work\fujian.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\fujian.cs" />
+    <Compile Include="work\Fydengji.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\Fydengji.cs" />
+    <Compile Include="work\GoodsCountManage.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\GoodsCountManage.cs" />
+    <Compile Include="work\GoodsCountManagedetail.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\GoodsCountManagedetail.cs" />
+    <Compile Include="work\GoodsCountop.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\GoodsCountop.cs" />
+    <Compile Include="work\gridExcelTemp.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\gridExcelTemp.cs" />
+    <Compile Include="work\gx_yxsjb.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\gx_yxsjb.cs" />
+    <Compile Include="work\gzxl.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\gzxl.cs" />
+    <Compile Include="work\HDTime.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\HDTime.cs" />
+    <Compile Include="work\HDTimetest.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\HDTimetest.cs" />
+    <Compile Include="work\hkzl.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\hkzl.cs" />
+    <Compile Include="work\hkzl_1.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\hkzl_1.cs" />
+    <Compile Include="work\image_path.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\image_path.cs" />
+    <Compile Include="work\InsuranceAccount.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\InsuranceAccount.cs" />
+    <Compile Include="work\InsuranceAccountDetail.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\InsuranceAccountDetail.cs" />
+    <Compile Include="work\InterchangeDetail.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\InterchangeDetail.cs" />
+    <Compile Include="work\InterchangeOrder.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\InterchangeOrder.cs" />
+    <Compile Include="work\InterFace_Asy.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\InterFace_Asy.cs" />
+    <Compile Include="work\InterFace_Log.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\InterFace_Log.cs" />
+    <Compile Include="work\InternalTransactionList.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\InternalTransactionList.cs" />
+    <Compile Include="work\InternalType.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\InternalType.cs" />
+    <Compile Include="work\jmCreateBillNo.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\jmCreateBillNo.cs" />
+    <Compile Include="work\LinesConfiguration.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\LinesConfiguration.cs" />
+    <Compile Include="work\lqzdjg.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\lqzdjg.cs" />
+    <Compile Include="work\middlesite.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\middlesite.cs" />
+    <Compile Include="work\MiddleSiteDelete.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\MiddleSiteDelete.cs" />
+    <Compile Include="work\MonthlyCustIndex.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\MonthlyCustIndex.cs" />
+    <Compile Include="work\msgcode.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\msgcode.cs" />
+    <Compile Include="work\MsgInfo.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\MsgInfo.cs" />
+    <Compile Include="work\networkKilometers.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\networkKilometers.cs" />
+    <Compile Include="work\NoticeInfo.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\NoticeInfo.cs" />
+    <Compile Include="work\NotTransferFee.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\NotTransferFee.cs" />
+    <Compile Include="work\OilCard.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\OilCard.cs" />
+    <Compile Include="work\OilCardAccount.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\OilCardAccount.cs" />
+    <Compile Include="work\OilCardAllot.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\OilCardAllot.cs" />
+    <Compile Include="work\OilCardRecharge.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\OilCardRecharge.cs" />
+    <Compile Include="work\OilplantsRegister.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\OilplantsRegister.cs" />
+    <Compile Include="work\oil_datum.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\oil_datum.cs" />
+    <Compile Include="work\OperLog.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\OperLog.cs" />
+    <Compile Include="work\OpinionInfo.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\OpinionInfo.cs" />
+    <Compile Include="work\optweight.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\optweight.cs" />
+    <Compile Include="work\orderinfo.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\orderinfo.cs" />
+    <Compile Include="work\ordermain.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\ordermain.cs" />
+    <Compile Include="work\PrescriptionTable.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\PrescriptionTable.cs" />
+    <Compile Include="work\PresentToAccount.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\PresentToAccount.cs" />
+    <Compile Include="work\ProblemParts.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\ProblemParts.cs" />
+    <Compile Include="work\ProvinceConfiguration.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\ProvinceConfiguration.cs" />
+    <Compile Include="work\ProvisionInfoManage.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\ProvisionInfoManage.cs" />
+    <Compile Include="work\PublicNumberMember.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\PublicNumberMember.cs" />
+    <Compile Include="work\PushedData.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\PushedData.cs" />
+    <Compile Include="work\PushedData_Ok.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\PushedData_Ok.cs" />
+    <Compile Include="work\p_bill_billnoInfo.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\p_bill_billnoInfo.cs" />
+    <Compile Include="work\p_bill_Outbound.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\p_bill_Outbound.cs" />
+    <Compile Include="work\p_bill_Treasury.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\p_bill_Treasury.cs" />
+    <Compile Include="work\qggzxl.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\qggzxl.cs" />
+    <Compile Include="work\qgszxl.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\qgszxl.cs" />
+    <Compile Include="work\QRTZ_BLOB_TRIGGERS.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\QRTZ_BLOB_TRIGGERS.cs" />
+    <Compile Include="work\QRTZ_CALENDARS.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\QRTZ_CALENDARS.cs" />
+    <Compile Include="work\QRTZ_CRON_TRIGGERS.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\QRTZ_CRON_TRIGGERS.cs" />
+    <Compile Include="work\QRTZ_FIRED_TRIGGERS.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\QRTZ_FIRED_TRIGGERS.cs" />
+    <Compile Include="work\QRTZ_JOB_DETAILS.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\QRTZ_JOB_DETAILS.cs" />
+    <Compile Include="work\QRTZ_LOCKS.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\QRTZ_LOCKS.cs" />
+    <Compile Include="work\QRTZ_PAUSED_TRIGGER_GRPS.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\QRTZ_PAUSED_TRIGGER_GRPS.cs" />
+    <Compile Include="work\QRTZ_SCHEDULER_STATE.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\QRTZ_SCHEDULER_STATE.cs" />
+    <Compile Include="work\QRTZ_SIMPLE_TRIGGERS.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\QRTZ_SIMPLE_TRIGGERS.cs" />
+    <Compile Include="work\QRTZ_SIMPROP_TRIGGERS.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\QRTZ_SIMPROP_TRIGGERS.cs" />
+    <Compile Include="work\QRTZ_TRIGGERS.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\QRTZ_TRIGGERS.cs" />
+    <Compile Include="work\qt_income.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\qt_income.cs" />
+    <Compile Include="work\ReBuildIndexLog_20191128.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\ReBuildIndexLog_20191128.cs" />
+    <Compile Include="work\Receipt.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\Receipt.cs" />
+    <Compile Include="work\Receipt_1.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\Receipt_1.cs" />
+    <Compile Include="work\Receipt_2.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\Receipt_2.cs" />
+    <Compile Include="work\Receipt_test.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\Receipt_test.cs" />
+    <Compile Include="work\ReceptionData.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\ReceptionData.cs" />
+    <Compile Include="work\ReceptionData_Ok.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\ReceptionData_Ok.cs" />
+    <Compile Include="work\record_of_withdrawals.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\record_of_withdrawals.cs" />
+    <Compile Include="work\RecRoute.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\RecRoute.cs" />
+    <Compile Include="work\RegionalCode.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\RegionalCode.cs" />
+    <Compile Include="work\RepertoryRecord.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\RepertoryRecord.cs" />
+    <Compile Include="work\reportorder.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\reportorder.cs" />
+    <Compile Include="work\ReturnModule.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\ReturnModule.cs" />
+    <Compile Include="work\ReturnStock.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\ReturnStock.cs" />
+    <Compile Include="work\RewardData.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\RewardData.cs" />
+    <Compile Include="work\RPofdrivers.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\RPofdrivers.cs" />
+    <Compile Include="work\save_PDAProcLog.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\save_PDAProcLog.cs" />
+    <Compile Include="work\ScheduleJob.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\ScheduleJob.cs" />
+    <Compile Include="work\ScheduleJobLog.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\ScheduleJobLog.cs" />
+    <Compile Include="work\SendExpression.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\SendExpression.cs" />
+    <Compile Include="work\SendExtendFee.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\SendExtendFee.cs" />
+    <Compile Include="work\SendFirstFee.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\SendFirstFee.cs" />
+    <Compile Include="work\SendPriceRecord.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\SendPriceRecord.cs" />
+    <Compile Include="work\SettlementAccount.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\SettlementAccount.cs" />
+    <Compile Include="work\sffbffkmx.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\sffbffkmx.cs" />
+    <Compile Include="work\SharedConsumption.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\SharedConsumption.cs" />
+    <Compile Include="work\ShortConn.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\ShortConn.cs" />
+    <Compile Include="work\ShortConn2018.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\ShortConn2018.cs" />
+    <Compile Include="work\ShortConnDetail.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\ShortConnDetail.cs" />
+    <Compile Include="work\ShortConnDetail2018.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\ShortConnDetail2018.cs" />
+    <Compile Include="work\ShortConnDetail_TEMP.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\ShortConnDetail_TEMP.cs" />
+    <Compile Include="work\ShortConnMonth.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\ShortConnMonth.cs" />
+    <Compile Include="work\ShortConn_TEMP.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\ShortConn_TEMP.cs" />
+    <Compile Include="work\ShortDeparture_Asy.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\ShortDeparture_Asy.cs" />
+    <Compile Include="work\SmallProgramIDOrder.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\SmallProgramIDOrder.cs" />
+    <Compile Include="work\SmsInfo.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\SmsInfo.cs" />
+    <Compile Include="work\SMS_Distribution.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\SMS_Distribution.cs" />
+    <Compile Include="work\SpecialGoodsSize.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\SpecialGoodsSize.cs" />
+    <Compile Include="work\special_main.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\special_main.cs" />
+    <Compile Include="work\StartMiddleSendRoute.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\StartMiddleSendRoute.cs" />
+    <Compile Include="work\StationBaseInfo.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\StationBaseInfo.cs" />
+    <Compile Include="work\StreetOtherName.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\StreetOtherName.cs" />
+    <Compile Include="work\suozhuang.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\suozhuang.cs" />
+    <Compile Include="work\SyncData.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\SyncData.cs" />
+    <Compile Include="work\syncobj_0x3043424334383134.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\syncobj_0x3043424334383134.cs" />
+    <Compile Include="work\syncobj_0x3342363339353241.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\syncobj_0x3342363339353241.cs" />
+    <Compile Include="work\SynFBState.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\SynFBState.cs" />
+    <Compile Include="work\SysConfig.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\SysConfig.cs" />
+    <Compile Include="work\sysConLog.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\sysConLog.cs" />
+    <Compile Include="work\SysDept.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\SysDept.cs" />
+    <Compile Include="work\sysdiagrams.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\sysdiagrams.cs" />
+    <Compile Include="work\SysDict.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\SysDict.cs" />
+    <Compile Include="work\sysLocalCacheTable.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\sysLocalCacheTable.cs" />
+    <Compile Include="work\SysLog.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\SysLog.cs" />
+    <Compile Include="work\SysMenu.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\SysMenu.cs" />
+    <Compile Include="work\SysOss.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\SysOss.cs" />
+    <Compile Include="work\sysParamSetting.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\sysParamSetting.cs" />
+    <Compile Include="work\sysRightGroup.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\sysRightGroup.cs" />
+    <Compile Include="work\sysRightGroupKT.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\sysRightGroupKT.cs" />
+    <Compile Include="work\sysRightGroupZQ.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\sysRightGroupZQ.cs" />
+    <Compile Include="work\SysRole.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\SysRole.cs" />
+    <Compile Include="work\sysRoleDataInfo.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\sysRoleDataInfo.cs" />
+    <Compile Include="work\sysRoleDataInfoClone.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\sysRoleDataInfoClone.cs" />
+    <Compile Include="work\SysRoleDept.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\SysRoleDept.cs" />
+    <Compile Include="work\SysRoleMenu.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\SysRoleMenu.cs" />
+    <Compile Include="work\sysUser.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\sysUser.cs" />
+    <Compile Include="work\sysUserInfo.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\sysUserInfo.cs" />
+    <Compile Include="work\SysUserMac.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\SysUserMac.cs" />
+    <Compile Include="work\sysUserPDA.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\sysUserPDA.cs" />
+    <Compile Include="work\SysUserRole.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\SysUserRole.cs" />
+    <Compile Include="work\SZBargaining.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\SZBargaining.cs" />
+    <Compile Include="work\szly.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\szly.cs" />
+    <Compile Include="work\szxl.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\szxl.cs" />
+    <Compile Include="work\s_vehicletype.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\s_vehicletype.cs" />
+    <Compile Include="work\s_verision_new.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\s_verision_new.cs" />
+    <Compile Include="work\Table_qsp_get_unload_pda_android_v2.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\Table_qsp_get_unload_pda_android_v2.cs" />
+    <Compile Include="work\Table_test.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\Table_test.cs" />
+    <Compile Include="work\tab_modify.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\tab_modify.cs" />
+    <Compile Include="work\tab_time.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\tab_time.cs" />
+    <Compile Include="work\TAB_ZFB_PLFK.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\TAB_ZFB_PLFK.cs" />
+    <Compile Include="work\tbFileInfo.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\tbFileInfo.cs" />
+    <Compile Include="work\tb_token.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\tb_token.cs" />
+    <Compile Include="work\test_lyj.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\test_lyj.cs" />
+    <Compile Include="work\TFT_PAY_INFO.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\TFT_PAY_INFO.cs" />
+    <Compile Include="work\TFT_PAY_INFO_BackUp20190617.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\TFT_PAY_INFO_BackUp20190617.cs" />
+    <Compile Include="work\TiaoZhang.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\TiaoZhang.cs" />
+    <Compile Include="work\tmpbankinfo.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\tmpbankinfo.cs" />
+    <Compile Include="work\tmpbasAccDetail.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\tmpbasAccDetail.cs" />
+    <Compile Include="work\tmpbasAccTatol.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\tmpbasAccTatol.cs" />
+    <Compile Include="work\tmplist.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\tmplist.cs" />
+    <Compile Include="work\tmpshsm.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\tmpshsm.cs" />
+    <Compile Include="work\tmpTable.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\tmpTable.cs" />
+    <Compile Include="work\tmpTable309.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\tmpTable309.cs" />
+    <Compile Include="work\tmptran.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\tmptran.cs" />
+    <Compile Include="work\tmpztqs.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\tmpztqs.cs" />
+    <Compile Include="work\TransferFeeBackDetail.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\TransferFeeBackDetail.cs" />
+    <Compile Include="work\TransferWhite.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\TransferWhite.cs" />
+    <Compile Include="work\trunkPlanDelivery.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\trunkPlanDelivery.cs" />
+    <Compile Include="work\TrunkPlanDelivery_WebName.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\TrunkPlanDelivery_WebName.cs" />
+    <Compile Include="work\userinfo.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\userinfo.cs" />
+    <Compile Include="work\vehicles.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\vehicles.cs" />
+    <Compile Include="work\vehicleWithold.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\vehicleWithold.cs" />
+    <Compile Include="work\VerifyOffAccount.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\VerifyOffAccount.cs" />
+    <Compile Include="work\v_by_dj.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\v_by_dj.cs" />
+    <Compile Include="work\v_by_project.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\v_by_project.cs" />
+    <Compile Include="work\v_chauffer_note.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\v_chauffer_note.cs" />
+    <Compile Include="work\v_fy_project.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\v_fy_project.cs" />
+    <Compile Include="work\v_gy_info.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\v_gy_info.cs" />
+    <Compile Include="work\v_gy_type.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\v_gy_type.cs" />
+    <Compile Include="work\v_jy_dj.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\v_jy_dj.cs" />
+    <Compile Include="work\v_pj_guige.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\v_pj_guige.cs" />
+    <Compile Include="work\v_tyre_manage.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\v_tyre_manage.cs" />
+    <Compile Include="work\v_vehicle_fy.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\v_vehicle_fy.cs" />
+    <Compile Include="work\v_wx_detail.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\v_wx_detail.cs" />
+    <Compile Include="work\v_wx_dj.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\v_wx_dj.cs" />
+    <Compile Include="work\WayBill.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\WayBill.cs" />
+    <Compile Include="work\WayBill2018.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\WayBill2018.cs" />
+    <Compile Include="work\WayBillApp.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\WayBillApp.cs" />
+    <Compile Include="work\WayBillCancel.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\WayBillCancel.cs" />
+    <Compile Include="work\WayBillDelete.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\WayBillDelete.cs" />
+    <Compile Include="work\WayBillFBRecord.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\WayBillFBRecord.cs" />
+    <Compile Include="work\WayBillFile.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\WayBillFile.cs" />
+    <Compile Include="work\WaybillInventoryOperation.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\WaybillInventoryOperation.cs" />
+    <Compile Include="work\WaybillInventoryTable.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\WaybillInventoryTable.cs" />
+    <Compile Include="work\WaybillInventoryTableDetail.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\WaybillInventoryTableDetail.cs" />
+    <Compile Include="work\WayBillJmGx.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\WayBillJmGx.cs" />
+    <Compile Include="work\WayBillJmGx2018.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\WayBillJmGx2018.cs" />
+    <Compile Include="work\WayBillJmGxMonth.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\WayBillJmGxMonth.cs" />
+    <Compile Include="work\WayBillJmGx_Bank.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\WayBillJmGx_Bank.cs" />
+    <Compile Include="work\WayBillModified.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\WayBillModified.cs" />
+    <Compile Include="work\WayBillModifiedRePort.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\WayBillModifiedRePort.cs" />
+    <Compile Include="work\WayBillMonth.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\WayBillMonth.cs" />
+    <Compile Include="work\WayBillOrder.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\WayBillOrder.cs" />
+    <Compile Include="work\WayBillOrderBak.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\WayBillOrderBak.cs" />
+    <Compile Include="work\WayBillPlus.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\WayBillPlus.cs" />
+    <Compile Include="work\WayBillPlusMonth.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\WayBillPlusMonth.cs" />
+    <Compile Include="work\WayBillPlus_HL.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\WayBillPlus_HL.cs" />
+    <Compile Include="work\WaybillSettlement.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\WaybillSettlement.cs" />
+    <Compile Include="work\WayBillSub.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\WayBillSub.cs" />
+    <Compile Include="work\WayBillSub2018.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\WayBillSub2018.cs" />
+    <Compile Include="work\WayBillSub_Draft.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\WayBillSub_Draft.cs" />
+    <Compile Include="work\WayBilltest.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\WayBilltest.cs" />
+    <Compile Include="work\WayBillTmp.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\WayBillTmp.cs" />
+    <Compile Include="work\WayBillTmpToKMS.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\WayBillTmpToKMS.cs" />
+    <Compile Include="work\WayBillVolume.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\WayBillVolume.cs" />
+    <Compile Include="work\WayBillWb.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\WayBillWb.cs" />
+    <Compile Include="work\WayBill_Draft.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\WayBill_Draft.cs" />
+    <Compile Include="work\WayBill_Field.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\WayBill_Field.cs" />
+    <Compile Include="work\WayBill_State8.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\WayBill_State8.cs" />
+    <Compile Include="work\WayBill_TEMP.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\WayBill_TEMP.cs" />
+    <Compile Include="work\WayBill_test.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\WayBill_test.cs" />
+    <Compile Include="work\webcode.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\webcode.cs" />
+    <Compile Include="work\WebContrast.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\WebContrast.cs" />
+    <Compile Include="work\WebPic.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\WebPic.cs" />
+    <Compile Include="work\WhiteList.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\WhiteList.cs" />
+    <Compile Include="work\withdrawals.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\withdrawals.cs" />
+    <Compile Include="work\WithHolding.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\WithHolding.cs" />
+    <Compile Include="work\xl.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\xl.cs" />
+    <Compile Include="work\ZDKZ.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\ZDKZ.cs" />
+    <Compile Include="work\ZJCartFee.cs">
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="work\ZJCartFee.cs" />
+    <Compile Include="YH.FrameWork.Entity.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>YH.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="YH.FrameWork.Entity\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ModelAuto.ttinclude" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DbHelper.ttinclude" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="YH.FrameWork.Entity.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>YH.FrameWork.Entity.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
